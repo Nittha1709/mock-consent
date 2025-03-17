@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'DBHeavent';
+  src: url('../fonts/dbheavent-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DBHeavent-light';
+  src: url('../fonts/dbheaventt-light-webfont.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DBHeavent-med';
+  src: url('../fonts/dbheavent-med-webfont.woff') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DBHeavent-bold';
+  src: url('../fonts/dbheavent-bold-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'DBHeavent', sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+ol {
+  display: block !important;
+  list-style-type: decimal !important;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  padding-left: 1rem !important;
+}
+ol li {
+  margin-bottom: 5px;
+}
+ol li:last-child {
+  margin-bottom: 0;
+}
